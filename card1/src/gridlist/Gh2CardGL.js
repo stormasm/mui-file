@@ -12,6 +12,7 @@ import GridListTile from "@material-ui/core/GridListTile";
 import tileData from "./tileData1.json";
 //import tileData from "./tileData";
 import GhCard from "./../cards/GhCard";
+//import GhCard from "./../cards/GhCardNoImage";
 
 const styles = theme => ({
   root: {
