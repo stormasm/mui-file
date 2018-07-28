@@ -40,7 +40,7 @@ function GhCardViewHorizontal(props) {
           cols={6}
         >
           {tileData.map(tile => (
-            <GridListTile key={tile.avatar} cols={tile.cols || 1}>
+            <GridListTile key={tile.avatar}>
               <GhCard tile={tile} />
             </GridListTile>
           ))}
