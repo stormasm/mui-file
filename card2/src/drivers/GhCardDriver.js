@@ -1,6 +1,7 @@
 import React from "react";
 
-import tileData from "./../data/nodejs-sandboxed-fs.json";
+import tileData from "./../data/tile3.json";
+//import tileData from "./../data/nodejs-sandboxed-fs.json";
 //import tileData from "./../data/ivy.json";
 import GhCardView from "./../cards/GhCardViewHorizontal";
 
