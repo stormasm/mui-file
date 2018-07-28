@@ -7,14 +7,6 @@ import GhCard from "./../cards/GhCard";
 import lightGreen from "@material-ui/core/colors/lightGreen";
 
 const styles = theme => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    height: 250,
-    backgroundColor: theme.palette.background.paper
-  },
   gridListSingleLine: {
     flexWrap: "nowrap",
     backgroundColor: lightGreen[100]
@@ -26,7 +18,6 @@ function GhCardViewHorizontal(props) {
 
   return (
     <div>
-      <div className={classes.root}>
         <GridList
           cellHeight={250}
           className={classes.gridListSingleLine}
@@ -38,7 +29,6 @@ function GhCardViewHorizontal(props) {
             </GridListTile>
           ))}
         </GridList>
-      </div>
     </div>
   );
 }
