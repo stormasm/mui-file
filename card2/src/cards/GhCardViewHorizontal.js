@@ -22,9 +22,6 @@ const styles = theme => ({
   gridListSingleLine: {
     flexWrap: "nowrap",
     backgroundColor: lightGreen[100]
-  },
-  subheader: {
-    width: "100%"
   }
 });
 
