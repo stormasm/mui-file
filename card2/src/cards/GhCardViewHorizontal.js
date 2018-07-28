@@ -15,10 +15,6 @@ const styles = theme => ({
     height: 250,
     backgroundColor: theme.palette.background.paper
   },
-  gridList: {
-    width: 600,
-    backgroundColor: lightGreen[100]
-  },
   gridListSingleLine: {
     flexWrap: "nowrap",
     backgroundColor: lightGreen[100]
