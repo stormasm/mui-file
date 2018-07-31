@@ -11,7 +11,7 @@ import tileData8 from "./../data/tile8.json";
 import tileDatax from "./../data/nodejs-sandboxed-fs.json";
 import tileDatay from "./../data/html5-node-diagram.json";
 
-import GhCardView from "./../cards/GhCardViewHorizontal";
+import GhCardView from "./../cards/GhCardViewVertical";
 
 function CardDriver() {
 
