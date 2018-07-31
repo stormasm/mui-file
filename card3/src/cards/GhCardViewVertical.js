@@ -12,6 +12,7 @@ const styles = theme => ({
     height: 300
   },
   gridList: {
+    width: "100%",
     backgroundColor: grey[50]
   }
 });
